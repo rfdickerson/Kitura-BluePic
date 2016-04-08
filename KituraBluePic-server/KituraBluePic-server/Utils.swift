@@ -57,7 +57,8 @@ func parsePhotosList (list: JSON) -> JSON {
         let attachments = data["attachments"]!.dictionaryValue
         let attachmentName = ([String](attachments.keys))[0]
             
-        let photo = JSON(["title": title,  "date": date, "ownerId": ownerId, "ownerName": ownerName, "picturePath": "\(photoId)/\(attachmentName)"])
+        let photo = JSON(["title": title,  "date": date, "ownerId": ownerId,
+                        "ownerName": ownerName, "picturePath": "\(photoId)/\(attachmentName)"])
         photos.append(photo)
         
     }
@@ -70,15 +71,15 @@ func createPhotoDocument (request: RouterRequest) -> (JSONDictionary?, String?) 
     
     if let profile = request.userInfo["profile"] as? UserProfile where photoName != nil {
         let ownerId = profile.id
-        let ownerName = profile.name.stringByReplacingOccurrencesOfString("%20", withString: " ")
+        let ownerName = profile.name.replacingOccurrences(of: "%20", with: " ")
 
-        let ext = photoName!.componentsSeparatedByString(".")[1].lowercaseString
+        let ext = photoName!.componentsSeparated(by: ".")[1].lowercaseString
         let contentType = ContentType.contentTypeForExtension(ext)
         
         let tempDateString = NSDate().descriptionWithLocale(nil).bridge()
         let dateString = tempDateString.substringToIndex(10) + "T" + tempDateString.substringWithRange(NSMakeRange(11, 8))
         
-        title = title?.stringByReplacingOccurrencesOfString("%20", withString: " ") ?? ""
+        title = title?.replacingOccurrences(of:"%20", with: " ") ?? ""
         
         let doc : JSONDictionary = ["ownerId": ownerId, "ownerName": ownerName, "title": title!, "date": dateString, "inFeed": true, "type": "photo"]
         
