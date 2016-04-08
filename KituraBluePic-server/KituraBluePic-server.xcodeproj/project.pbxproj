@@ -7,259 +7,2425 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2EC31C1C69E1AD0070FCCE /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EC31B1C69E1AD0070FCCE /* Admin.swift */; };
-		3F2EC31E1C6A53680070FCCE /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EC31D1C6A53680070FCCE /* Photos.swift */; };
-		A242B7011C351AD200AFB4AE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A242B7001C351AD200AFB4AE /* Utils.swift */; };
-		A2A8F0ED1C3168AF00C73B61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8F0EC1C3168AF00C73B61 /* main.swift */; };
-		A2A8F0F41C31692400C73B61 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8F0F31C31692400C73B61 /* Package.swift */; };
+		E11CB7ED1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB7EE1CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB7EF1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB7F01CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB7F11CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB7F21CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB7F31CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB7F41CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB7F51CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB7F61CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB7F71CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB7F81CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB7F91CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB7FA1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB7FB1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB7FC1CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB7FD1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB7FE1CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB7FF1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8001CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB8011CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB8021CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8031CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB8041CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8051CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB8061CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB8071CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HeliumLogger" /* libHeliumLogger.dylib */; };
+		E11CB8081CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8091CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB80A1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB80B1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB80C1CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB80D1CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HeliumLogger" /* libHeliumLogger.dylib */; };
+		E11CB80E1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB80F1CB8405300B1A513 /* libCouchDB.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CouchDB" /* libCouchDB.dylib */; };
+		E11CB8101CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8111CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8121CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8131CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8141CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB8151CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8161CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB8171CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB8181CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8191CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB81A1CB8405300B1A513 /* libKitura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Kitura" /* libKitura.dylib */; };
+		E11CB81B1CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB81C1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB81D1CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB81E1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB81F1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8201CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB8211CB8405300B1A513 /* libKitura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Kitura" /* libKitura.dylib */; };
+		E11CB8221CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB8231CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB8241CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB8251CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB8261CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8271CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB8281CB8405300B1A513 /* libKitura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Kitura" /* libKitura.dylib */; };
+		E11CB8291CB8405300B1A513 /* libCredentials.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Credentials" /* libCredentials.dylib */; };
+		E11CB82A1CB8405300B1A513 /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		E11CB82B1CB8405300B1A513 /* libCredentials.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Credentials" /* libCredentials.dylib */; };
+		E11CB82C1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		E11CB82D1CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HeliumLogger" /* libHeliumLogger.dylib */; };
+		E11CB82E1CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		E11CB82F1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		E11CB8301CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		E11CB8311CB8405300B1A513 /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		E11CB8321CB8405300B1A513 /* libSwiftRedis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftRedis" /* libSwiftRedis.dylib */; };
+		E11CB8331CB8405300B1A513 /* libCouchDB.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CouchDB" /* libCouchDB.dylib */; };
+		E11CB8341CB8405300B1A513 /* libKitura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Kitura" /* libKitura.dylib */; };
+		_LinkFileRef_CouchDB /* libCouchDB.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CouchDB" /* libCouchDB.dylib */; };
+		_LinkFileRef_Credentials /* libCredentials.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Credentials" /* libCredentials.dylib */; };
+		_LinkFileRef_CredentialsFacebookToken /* libCredentialsFacebookToken.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CredentialsFacebookToken" /* libCredentialsFacebookToken.dylib */; };
+		_LinkFileRef_CredentialsGoogleToken /* libCredentialsGoogleToken.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CredentialsGoogleToken" /* libCredentialsGoogleToken.dylib */; };
+		_LinkFileRef_HeliumLogger /* libHeliumLogger.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HeliumLogger" /* libHeliumLogger.dylib */; };
+		_LinkFileRef_Kitura /* libKitura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Kitura" /* libKitura.dylib */; };
+		_LinkFileRef_KituraNet /* libKituraNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraNet" /* libKituraNet.dylib */; };
+		_LinkFileRef_KituraSys /* libKituraSys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraSys" /* libKituraSys.dylib */; };
+		_LinkFileRef_KituraTemplateEngine /* libKitura-TemplateEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */; };
+		_LinkFileRef_LoggerAPI /* libLoggerAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */; };
+		_LinkFileRef_Socket /* libSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socket" /* libSocket.dylib */; };
+		_LinkFileRef_SwiftRedis /* libSwiftRedis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftRedis" /* libSwiftRedis.dylib */; };
+		_LinkFileRef_SwiftyJSON /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */; };
+		"__src_cc_ref_KituraBluePic-server/Admin.swift" /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_KituraBluePic-server/Admin.swift" /* Admin.swift */; };
+		"__src_cc_ref_KituraBluePic-server/Photos.swift" /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_KituraBluePic-server/Photos.swift" /* Photos.swift */; };
+		"__src_cc_ref_KituraBluePic-server/Utils.swift" /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_KituraBluePic-server/Utils.swift" /* Utils.swift */; };
+		"__src_cc_ref_KituraBluePic-server/main.swift" /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_KituraBluePic-server/main.swift" /* main.swift */; };
+		"__src_cc_ref_Packages/HeliumLogger-0.4.3/Sources/HeliumLogger/HeliumLogger.swift" /* HeliumLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HeliumLogger-0.4.3/Sources/HeliumLogger/HeliumLogger.swift" /* HeliumLogger.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterElement.swift" /* RouterElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterElement.swift" /* RouterElement.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddleware.swift" /* RouterMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddleware.swift" /* RouterMiddleware.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddlewareGenerator.swift" /* RouterMiddlewareGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddlewareGenerator.swift" /* RouterMiddlewareGenerator.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterRequest.swift" /* RouterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterRequest.swift" /* RouterRequest.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterResponse.swift" /* RouterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterResponse.swift" /* RouterResponse.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/bodyParser/BodyParser.swift" /* bodyParser/BodyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/bodyParser/BodyParser.swift" /* bodyParser/BodyParser.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/contentType/ContentType.swift" /* contentType/ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/ContentType.swift" /* contentType/ContentType.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/contentType/types.swift" /* contentType/types.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/types.swift" /* contentType/types.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/staticFileServer/StaticFileServer.swift" /* staticFileServer/StaticFileServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/staticFileServer/StaticFileServer.swift" /* staticFileServer/StaticFileServer.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/ExternalSubrouter.swift" /* ExternalSubrouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/ExternalSubrouter.swift" /* ExternalSubrouter.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/KituraTest.swift" /* KituraTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/KituraTest.swift" /* KituraTest.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestContentType.swift" /* TestContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestContentType.swift" /* TestContentType.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestCookies.swift" /* TestCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestCookies.swift" /* TestCookies.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestErrors.swift" /* TestErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestErrors.swift" /* TestErrors.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestMultiplicity.swift" /* TestMultiplicity.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestMultiplicity.swift" /* TestMultiplicity.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestResponse.swift" /* TestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestResponse.swift" /* TestResponse.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestSubrouter.swift" /* TestSubrouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestSubrouter.swift" /* TestSubrouter.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/net/ClientTests.swift" /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ClientTests.swift" /* ClientTests.swift */; };
+		"__src_cc_ref_Packages/Kitura-0.7.4/Tests/net/ParserTests.swift" /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ParserTests.swift" /* ParserTests.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/ConnectionProperties.swift" /* ConnectionProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/ConnectionProperties.swift" /* ConnectionProperties.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBClient.swift" /* CouchDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBClient.swift" /* CouchDBClient.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBUtils.swift" /* CouchDBUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBUtils.swift" /* CouchDBUtils.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/Database.swift" /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/Database.swift" /* Database.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample/main.swift" /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample/main.swift" /* main.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DBTests.swift" /* DBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DBTests.swift" /* DBTests.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DocumentCrudTests.swift" /* DocumentCrudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DocumentCrudTests.swift" /* DocumentCrudTests.swift */; };
+		"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/Utils.swift" /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/Utils.swift" /* Utils.swift */; };
+		"__src_cc_ref_Packages/Kitura-Credentials-0.7.0/Sources/Credentials/Credentials.swift" /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-Credentials-0.7.0/Sources/Credentials/Credentials.swift" /* Credentials.swift */; };
+		"__src_cc_ref_Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken/CredentialsFacebookToken.swift" /* CredentialsFacebookToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken/CredentialsFacebookToken.swift" /* CredentialsFacebookToken.swift */; };
+		"__src_cc_ref_Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken/CredentialsGoogleToken.swift" /* CredentialsGoogleToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken/CredentialsGoogleToken.swift" /* CredentialsGoogleToken.swift */; };
+		"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Queue.swift" /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Queue.swift" /* Queue.swift */; };
+		"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Server.swift" /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Server.swift" /* Server.swift */; };
+		"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/StringUtils.swift" /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/StringUtils.swift" /* StringUtils.swift */; };
+		"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/SysUtils.swift" /* SysUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/SysUtils.swift" /* SysUtils.swift */; };
+		"__src_cc_ref_Packages/Kitura-TemplateEngine-0.0.2/Sources/TemplateEngine.swift" /* TemplateEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-TemplateEngine-0.0.2/Sources/TemplateEngine.swift" /* TemplateEngine.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/BufferList.swift" /* BufferList.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/BufferList.swift" /* BufferList.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientRequest.swift" /* ClientRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientRequest.swift" /* ClientRequest.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientResponse.swift" /* ClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientResponse.swift" /* ClientResponse.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/Http.swift" /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/Http.swift" /* Http.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/HttpParser.swift" /* HttpParser/HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/HttpParser.swift" /* HttpParser/HttpParser.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/UrlParser.swift" /* HttpParser/UrlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/UrlParser.swift" /* HttpParser/UrlParser.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServer.swift" /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServer.swift" /* HttpServer.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServerSpi.swift" /* HttpServerSpi.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServerSpi.swift" /* HttpServerSpi.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/IncomingMessage.swift" /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/IncomingMessage.swift" /* IncomingMessage.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerRequest.swift" /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerRequest.swift" /* ServerRequest.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerResponse.swift" /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerResponse.swift" /* ServerResponse.swift */; };
+		"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/SpiUtils.swift" /* SpiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/SpiUtils.swift" /* SpiUtils.swift */; };
+		"__src_cc_ref_Packages/LoggerAPI-0.4.0/Sources/LoggerAPI/Logger.swift" /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/LoggerAPI-0.4.0/Sources/LoggerAPI/Logger.swift" /* Logger.swift */; };
+		"__src_cc_ref_Packages/Socket-0.3.5/Sources/Socket.swift" /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Socket-0.3.5/Sources/Socket.swift" /* Socket.swift */; };
+		"__src_cc_ref_Packages/Socket-0.3.5/Sources/SocketProtocols.swift" /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketProtocols.swift" /* SocketProtocols.swift */; };
+		"__src_cc_ref_Packages/Socket-0.3.5/Sources/SocketUtils.swift" /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketUtils.swift" /* SocketUtils.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/Redis.swift" /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/Redis.swift" /* Redis.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/RedisMisc.swift" /* RedisMisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMisc.swift" /* RedisMisc.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/RedisMulti.swift" /* RedisMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMulti.swift" /* RedisMulti.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/AuthTests.swift" /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/AuthTests.swift" /* AuthTests.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/CommonUtils.swift" /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/CommonUtils.swift" /* CommonUtils.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBasicCommands.swift" /* TestBasicCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBasicCommands.swift" /* TestBasicCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBinarySafeCommands.swift" /* TestBinarySafeCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBinarySafeCommands.swift" /* TestBinarySafeCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestConnectCommands.swift" /* TestConnectCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestConnectCommands.swift" /* TestConnectCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestHashCommands.swift" /* TestHashCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestHashCommands.swift" /* TestHashCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestIssueCommand.swift" /* TestIssueCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestIssueCommand.swift" /* TestIssueCommand.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestMoreCommands.swift" /* TestMoreCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestMoreCommands.swift" /* TestMoreCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestStringAndBitCommands.swift" /* TestStringAndBitCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestStringAndBitCommands.swift" /* TestStringAndBitCommands.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart1.swift" /* TestTransactionsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart1.swift" /* TestTransactionsPart1.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart2.swift" /* TestTransactionsPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart2.swift" /* TestTransactionsPart2.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart3.swift" /* TestTransactionsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart3.swift" /* TestTransactionsPart3.swift */; };
+		"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart4.swift" /* TestTransactionsPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart4.swift" /* TestTransactionsPart4.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-5.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-5.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A2A8F0E71C3168AF00C73B61 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		E11CB8351CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_LoggerAPI";
+			remoteInfo = LoggerAPI;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		E11CB8361CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Socket";
+			remoteInfo = Socket;
+		};
+		E11CB8371CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_KituraSys";
+			remoteInfo = KituraSys;
+		};
+		E11CB8381CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_KituraTemplateEngine";
+			remoteInfo = "Kitura-TemplateEngine";
+		};
+		E11CB8391CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		E11CB83A1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_KituraNet";
+			remoteInfo = KituraNet;
+		};
+		E11CB83B1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HeliumLogger";
+			remoteInfo = HeliumLogger;
+		};
+		E11CB83C1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CouchDB";
+			remoteInfo = CouchDB;
+		};
+		E11CB83D1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Kitura";
+			remoteInfo = Kitura;
+		};
+		E11CB83E1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Credentials";
+			remoteInfo = Credentials;
+		};
+		E11CB83F1CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CredentialsGoogleToken";
+			remoteInfo = CredentialsGoogleToken;
+		};
+		E11CB8401CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CredentialsFacebookToken";
+			remoteInfo = CredentialsFacebookToken;
+		};
+		E11CB8411CB8405400B1A513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SwiftRedis";
+			remoteInfo = SwiftRedis;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F2EC31B1C69E1AD0070FCCE /* Admin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
-		3F2EC31D1C6A53680070FCCE /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
-		3F2EC31F1C6A577C0070FCCE /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		A242B7001C351AD200AFB4AE /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		A2A8F0E91C3168AF00C73B61 /* KituraBluePic-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "KituraBluePic-server"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A8F0EC1C3168AF00C73B61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A2A8F0F31C31692400C73B61 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_KituraBluePic-server/Admin.swift" /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_KituraBluePic-server/Photos.swift" /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_KituraBluePic-server/Utils.swift" /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_KituraBluePic-server/main.swift" /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "/Users/Robert/MIL/KituraProject/Kitura-BluePic/KituraBluePic-server/Package.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HeliumLogger-0.4.3/Sources/HeliumLogger/HeliumLogger.swift" /* HeliumLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliumLogger.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterElement.swift" /* RouterElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterElement.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddleware.swift" /* RouterMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterMiddleware.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddlewareGenerator.swift" /* RouterMiddlewareGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterMiddlewareGenerator.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterRequest.swift" /* RouterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterRequest.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterResponse.swift" /* RouterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterResponse.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/bodyParser/BodyParser.swift" /* bodyParser/BodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyParser/BodyParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/ContentType.swift" /* contentType/ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentType/ContentType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/types.swift" /* contentType/types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentType/types.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/staticFileServer/StaticFileServer.swift" /* staticFileServer/StaticFileServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staticFileServer/StaticFileServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/ExternalSubrouter.swift" /* ExternalSubrouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalSubrouter.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/KituraTest.swift" /* KituraTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KituraTest.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestContentType.swift" /* TestContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestCookies.swift" /* TestCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCookies.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestErrors.swift" /* TestErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestErrors.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestMultiplicity.swift" /* TestMultiplicity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiplicity.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestResponse.swift" /* TestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResponse.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestSubrouter.swift" /* TestSubrouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSubrouter.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ClientTests.swift" /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ParserTests.swift" /* ParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/ConnectionProperties.swift" /* ConnectionProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionProperties.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBClient.swift" /* CouchDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchDBClient.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBUtils.swift" /* CouchDBUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchDBUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/Database.swift" /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample/main.swift" /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DBTests.swift" /* DBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DocumentCrudTests.swift" /* DocumentCrudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCrudTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/Utils.swift" /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-Credentials-0.7.0/Sources/Credentials/Credentials.swift" /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken/CredentialsFacebookToken.swift" /* CredentialsFacebookToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsFacebookToken.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken/CredentialsGoogleToken.swift" /* CredentialsGoogleToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsGoogleToken.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Queue.swift" /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Server.swift" /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/StringUtils.swift" /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/SysUtils.swift" /* SysUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-TemplateEngine-0.0.2/Sources/TemplateEngine.swift" /* TemplateEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateEngine.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/BufferList.swift" /* BufferList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferList.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientRequest.swift" /* ClientRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRequest.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientResponse.swift" /* ClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientResponse.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/Http.swift" /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/HttpParser.swift" /* HttpParser/HttpParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpParser/HttpParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/UrlParser.swift" /* HttpParser/UrlParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpParser/UrlParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServer.swift" /* HttpServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServerSpi.swift" /* HttpServerSpi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServerSpi.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/IncomingMessage.swift" /* IncomingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerRequest.swift" /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerResponse.swift" /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/SpiUtils.swift" /* SpiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/LoggerAPI-0.4.0/Sources/LoggerAPI/Logger.swift" /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Socket-0.3.5/Sources/Socket.swift" /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketProtocols.swift" /* SocketProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProtocols.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketUtils.swift" /* SocketUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/Redis.swift" /* Redis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redis.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMisc.swift" /* RedisMisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisMisc.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMulti.swift" /* RedisMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisMulti.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/AuthTests.swift" /* AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/CommonUtils.swift" /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBasicCommands.swift" /* TestBasicCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBasicCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBinarySafeCommands.swift" /* TestBinarySafeCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBinarySafeCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestConnectCommands.swift" /* TestConnectCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConnectCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestHashCommands.swift" /* TestHashCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHashCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestIssueCommand.swift" /* TestIssueCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIssueCommand.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestMoreCommands.swift" /* TestMoreCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoreCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestStringAndBitCommands.swift" /* TestStringAndBitCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStringAndBitCommands.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart1.swift" /* TestTransactionsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart1.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart2.swift" /* TestTransactionsPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart2.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart3.swift" /* TestTransactionsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart3.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart4.swift" /* TestTransactionsPart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart4.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LclJSONSerialization.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		"_____Product_CouchDB" /* libCouchDB.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCouchDB.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CouchDBSample" /* CouchDBSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = CouchDBSample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CouchDBTestSuite" /* CouchDB.testsuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CouchDB.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Credentials" /* libCredentials.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCredentials.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CredentialsFacebookToken" /* libCredentialsFacebookToken.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCredentialsFacebookToken.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CredentialsGoogleToken" /* libCredentialsGoogleToken.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCredentialsGoogleToken.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HeliumLogger" /* libHeliumLogger.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libHeliumLogger.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Kitura" /* libKitura.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libKitura.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_KituraBluePicserver" /* KituraBluePic-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "KituraBluePic-server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_KituraNet" /* libKituraNet.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libKituraNet.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_KituraSys" /* libKituraSys.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libKituraSys.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libKitura-TemplateEngine.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_KituraTestSuite" /* Kitura.testsuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Kitura.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_LoggerAPI" /* libLoggerAPI.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libLoggerAPI.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Socket" /* libSocket.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSocket.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftRedis" /* libSwiftRedis.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSwiftRedis.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftRedisTestSuite" /* SwiftRedis.testsuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftRedis.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSwiftyJSON.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_netTestSuite" /* net.testsuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = net.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2A8F0E61C3168AF00C73B61 /* Frameworks */ = {
+		"___LinkPhase_CouchDB" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+				E11CB7FE1CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB7FF1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB8001CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB8011CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				_LinkFileRef_HeliumLogger /* libHeliumLogger.dylib in Frameworks */,
+				E11CB8021CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CouchDBSample" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8031CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB8041CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB8051CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB8061CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				E11CB8071CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */,
+				E11CB8081CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				_LinkFileRef_CouchDB /* libCouchDB.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CouchDBTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8091CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB80A1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB80B1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB80C1CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				E11CB80D1CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */,
+				E11CB80E1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB80F1CB8405300B1A513 /* libCouchDB.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Credentials" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8141CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB8151CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB8161CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB8171CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB8181CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8191CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				E11CB81A1CB8405300B1A513 /* libKitura.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CredentialsFacebookToken" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB81B1CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB81C1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB81D1CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB81E1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB81F1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8201CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				E11CB8211CB8405300B1A513 /* libKitura.dylib in Frameworks */,
+				_LinkFileRef_Credentials /* libCredentials.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CredentialsGoogleToken" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8221CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB8231CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB8241CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB8251CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB8261CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8271CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				E11CB8281CB8405300B1A513 /* libKitura.dylib in Frameworks */,
+				E11CB8291CB8405300B1A513 /* libCredentials.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HeliumLogger" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB7FD1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Kitura" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB7EE1CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB7EF1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				_LinkFileRef_KituraTemplateEngine /* libKitura-TemplateEngine.dylib in Frameworks */,
+				_LinkFileRef_SwiftyJSON /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB7F01CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				_LinkFileRef_KituraNet /* libKituraNet.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_KituraBluePicserver" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB82A1CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB82B1CB8405300B1A513 /* libCredentials.dylib in Frameworks */,
+				E11CB82C1CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB82D1CB8405300B1A513 /* libHeliumLogger.dylib in Frameworks */,
+				E11CB82E1CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB82F1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB8301CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8311CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				_LinkFileRef_CredentialsGoogleToken /* libCredentialsGoogleToken.dylib in Frameworks */,
+				_LinkFileRef_CredentialsFacebookToken /* libCredentialsFacebookToken.dylib in Frameworks */,
+				E11CB8321CB8405300B1A513 /* libSwiftRedis.dylib in Frameworks */,
+				E11CB8331CB8405300B1A513 /* libCouchDB.dylib in Frameworks */,
+				E11CB8341CB8405300B1A513 /* libKitura.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_KituraNet" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB7ED1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				_LinkFileRef_Socket /* libSocket.dylib in Frameworks */,
+				_LinkFileRef_KituraSys /* libKituraSys.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_KituraSys" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_LoggerAPI /* libLoggerAPI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_KituraTemplateEngine" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_KituraTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB7F11CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB7F21CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB7F31CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB7F41CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB7F51CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB7F61CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
+				_LinkFileRef_Kitura /* libKitura.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_LoggerAPI" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Socket" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftRedis" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8101CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8111CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftRedisTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB8121CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB8131CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				_LinkFileRef_SwiftRedis /* libSwiftRedis.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftyJSON" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_netTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E11CB7F71CB8405300B1A513 /* libSocket.dylib in Frameworks */,
+				E11CB7F81CB8405300B1A513 /* libKituraSys.dylib in Frameworks */,
+				E11CB7F91CB8405300B1A513 /* libKitura-TemplateEngine.dylib in Frameworks */,
+				E11CB7FA1CB8405300B1A513 /* libSwiftyJSON.dylib in Frameworks */,
+				E11CB7FB1CB8405300B1A513 /* libLoggerAPI.dylib in Frameworks */,
+				E11CB7FC1CB8405300B1A513 /* libKituraNet.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A2A8F0E01C3168AF00C73B61 = {
+		TestProducts_ /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A2A8F0F31C31692400C73B61 /* Package.swift */,
-				3F2EC31F1C6A577C0070FCCE /* config.json */,
-				A2A8F0EB1C3168AF00C73B61 /* KituraBluePic-server */,
-				A2A8F0EA1C3168AF00C73B61 /* Products */,
+				"_____Product_KituraTestSuite" /* Kitura.testsuite.xctest */,
+				"_____Product_netTestSuite" /* net.testsuite.xctest */,
+				"_____Product_CouchDBTestSuite" /* CouchDB.testsuite.xctest */,
+				"_____Product_SwiftRedisTestSuite" /* SwiftRedis.testsuite.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Sources_" /* Sources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A2A8F0EA1C3168AF00C73B61 /* Products */ = {
+		"____Products_" /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2A8F0E91C3168AF00C73B61 /* KituraBluePic-server */,
+				TestProducts_ /* Tests */,
+				"_____Product_LoggerAPI" /* libLoggerAPI.dylib */,
+				"_____Product_KituraSys" /* libKituraSys.dylib */,
+				"_____Product_Socket" /* libSocket.dylib */,
+				"_____Product_KituraNet" /* libKituraNet.dylib */,
+				"_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */,
+				"_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */,
+				"_____Product_Kitura" /* libKitura.dylib */,
+				"_____Product_HeliumLogger" /* libHeliumLogger.dylib */,
+				"_____Product_CouchDB" /* libCouchDB.dylib */,
+				"_____Product_CouchDBSample" /* CouchDBSample */,
+				"_____Product_SwiftRedis" /* libSwiftRedis.dylib */,
+				"_____Product_Credentials" /* libCredentials.dylib */,
+				"_____Product_CredentialsFacebookToken" /* libCredentialsFacebookToken.dylib */,
+				"_____Product_CredentialsGoogleToken" /* libCredentialsGoogleToken.dylib */,
+				"_____Product_KituraBluePicserver" /* KituraBluePic-server */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2A8F0EB1C3168AF00C73B61 /* KituraBluePic-server */ = {
+		"_____Sources_" /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A2A8F0EC1C3168AF00C73B61 /* main.swift */,
-				A242B7001C351AD200AFB4AE /* Utils.swift */,
-				3F2EC31B1C69E1AD0070FCCE /* Admin.swift */,
-				3F2EC31D1C6A53680070FCCE /* Photos.swift */,
+				"_______Group_LoggerAPI" /* LoggerAPI */,
+				"_______Group_KituraSys" /* KituraSys */,
+				"_______Group_Socket" /* Socket */,
+				"_______Group_KituraNet" /* KituraNet */,
+				"_______Group_SwiftyJSON" /* SwiftyJSON */,
+				"_______Group_KituraTemplateEngine" /* Kitura-TemplateEngine */,
+				"_______Group_Kitura" /* Kitura */,
+				"_______Group_HeliumLogger" /* HeliumLogger */,
+				"_______Group_CouchDB" /* CouchDB */,
+				"_______Group_CouchDBSample" /* CouchDBSample */,
+				"_______Group_SwiftRedis" /* SwiftRedis */,
+				"_______Group_Credentials" /* Credentials */,
+				"_______Group_CredentialsFacebookToken" /* CredentialsFacebookToken */,
+				"_______Group_CredentialsGoogleToken" /* CredentialsGoogleToken */,
+				"_______Group_KituraBluePicserver" /* KituraBluePic-server */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_CouchDB" /* CouchDB */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/ConnectionProperties.swift" /* ConnectionProperties.swift */,
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBClient.swift" /* CouchDBClient.swift */,
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBUtils.swift" /* CouchDBUtils.swift */,
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/Database.swift" /* Database.swift */,
+			);
+			name = CouchDB;
+			path = "Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB";
+			sourceTree = "<group>";
+		};
+		"_______Group_CouchDBSample" /* CouchDBSample */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample/main.swift" /* main.swift */,
+			);
+			name = CouchDBSample;
+			path = "Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample";
+			sourceTree = "<group>";
+		};
+		"_______Group_CouchDBTestSuite" /* CouchDB.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DBTests.swift" /* DBTests.swift */,
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DocumentCrudTests.swift" /* DocumentCrudTests.swift */,
+				"__PBXFileRef_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/Utils.swift" /* Utils.swift */,
+			);
+			name = CouchDB.testsuite;
+			path = "Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB";
+			sourceTree = "<group>";
+		};
+		"_______Group_Credentials" /* Credentials */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-Credentials-0.7.0/Sources/Credentials/Credentials.swift" /* Credentials.swift */,
+			);
+			name = Credentials;
+			path = "Packages/Kitura-Credentials-0.7.0/Sources/Credentials";
+			sourceTree = "<group>";
+		};
+		"_______Group_CredentialsFacebookToken" /* CredentialsFacebookToken */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken/CredentialsFacebookToken.swift" /* CredentialsFacebookToken.swift */,
+			);
+			name = CredentialsFacebookToken;
+			path = "Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken";
+			sourceTree = "<group>";
+		};
+		"_______Group_CredentialsGoogleToken" /* CredentialsGoogleToken */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken/CredentialsGoogleToken.swift" /* CredentialsGoogleToken.swift */,
+			);
+			name = CredentialsGoogleToken;
+			path = "Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken";
+			sourceTree = "<group>";
+		};
+		"_______Group_HeliumLogger" /* HeliumLogger */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HeliumLogger-0.4.3/Sources/HeliumLogger/HeliumLogger.swift" /* HeliumLogger.swift */,
+			);
+			name = HeliumLogger;
+			path = "Packages/HeliumLogger-0.4.3/Sources/HeliumLogger";
+			sourceTree = "<group>";
+		};
+		"_______Group_Kitura" /* Kitura */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/Router.swift" /* Router.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterElement.swift" /* RouterElement.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddleware.swift" /* RouterMiddleware.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddlewareGenerator.swift" /* RouterMiddlewareGenerator.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterRequest.swift" /* RouterRequest.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/RouterResponse.swift" /* RouterResponse.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/bodyParser/BodyParser.swift" /* bodyParser/BodyParser.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/ContentType.swift" /* contentType/ContentType.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/contentType/types.swift" /* contentType/types.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Sources/Kitura/staticFileServer/StaticFileServer.swift" /* staticFileServer/StaticFileServer.swift */,
+			);
+			name = Kitura;
+			path = "Packages/Kitura-0.7.4/Sources/Kitura";
+			sourceTree = "<group>";
+		};
+		"_______Group_KituraBluePicserver" /* KituraBluePic-server */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_KituraBluePic-server/Admin.swift" /* Admin.swift */,
+				"__PBXFileRef_KituraBluePic-server/main.swift" /* main.swift */,
+				"__PBXFileRef_KituraBluePic-server/Photos.swift" /* Photos.swift */,
+				"__PBXFileRef_KituraBluePic-server/Utils.swift" /* Utils.swift */,
 			);
 			path = "KituraBluePic-server";
+			sourceTree = "<group>";
+		};
+		"_______Group_KituraNet" /* KituraNet */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/BufferList.swift" /* BufferList.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientRequest.swift" /* ClientRequest.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientResponse.swift" /* ClientResponse.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/Http.swift" /* Http.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServer.swift" /* HttpServer.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServerSpi.swift" /* HttpServerSpi.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/IncomingMessage.swift" /* IncomingMessage.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerRequest.swift" /* ServerRequest.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerResponse.swift" /* ServerResponse.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/SpiUtils.swift" /* SpiUtils.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/HttpParser.swift" /* HttpParser/HttpParser.swift */,
+				"__PBXFileRef_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/UrlParser.swift" /* HttpParser/UrlParser.swift */,
+			);
+			name = KituraNet;
+			path = "Packages/Kitura-net-0.7.2/Sources/KituraNet";
+			sourceTree = "<group>";
+		};
+		"_______Group_KituraSys" /* KituraSys */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Queue.swift" /* Queue.swift */,
+				"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Server.swift" /* Server.swift */,
+				"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/StringUtils.swift" /* StringUtils.swift */,
+				"__PBXFileRef_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/SysUtils.swift" /* SysUtils.swift */,
+			);
+			name = KituraSys;
+			path = "Packages/Kitura-Sys-0.7.0/Sources/KituraSys";
+			sourceTree = "<group>";
+		};
+		"_______Group_KituraTemplateEngine" /* Kitura-TemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-TemplateEngine-0.0.2/Sources/TemplateEngine.swift" /* TemplateEngine.swift */,
+			);
+			name = "Kitura-TemplateEngine";
+			path = "Packages/Kitura-TemplateEngine-0.0.2/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_KituraTestSuite" /* Kitura.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/ExternalSubrouter.swift" /* ExternalSubrouter.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/KituraTest.swift" /* KituraTest.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestContentType.swift" /* TestContentType.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestCookies.swift" /* TestCookies.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestErrors.swift" /* TestErrors.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestMultiplicity.swift" /* TestMultiplicity.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestResponse.swift" /* TestResponse.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/Kitura/TestSubrouter.swift" /* TestSubrouter.swift */,
+			);
+			name = Kitura.testsuite;
+			path = "Packages/Kitura-0.7.4/Tests/Kitura";
+			sourceTree = "<group>";
+		};
+		"_______Group_LoggerAPI" /* LoggerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/LoggerAPI-0.4.0/Sources/LoggerAPI/Logger.swift" /* Logger.swift */,
+			);
+			name = LoggerAPI;
+			path = "Packages/LoggerAPI-0.4.0/Sources/LoggerAPI";
+			sourceTree = "<group>";
+		};
+		"_______Group_Socket" /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Socket-0.3.5/Sources/Socket.swift" /* Socket.swift */,
+				"__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketProtocols.swift" /* SocketProtocols.swift */,
+				"__PBXFileRef_Packages/Socket-0.3.5/Sources/SocketUtils.swift" /* SocketUtils.swift */,
+			);
+			name = Socket;
+			path = "Packages/Socket-0.3.5/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftRedis" /* SwiftRedis */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/Redis.swift" /* Redis.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMisc.swift" /* RedisMisc.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Sources/RedisMulti.swift" /* RedisMulti.swift */,
+			);
+			name = SwiftRedis;
+			path = "Packages/SwiftRedis-0.7.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftRedisTestSuite" /* SwiftRedis.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/AuthTests.swift" /* AuthTests.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/CommonUtils.swift" /* CommonUtils.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBasicCommands.swift" /* TestBasicCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBinarySafeCommands.swift" /* TestBinarySafeCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestConnectCommands.swift" /* TestConnectCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestHashCommands.swift" /* TestHashCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestIssueCommand.swift" /* TestIssueCommand.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestMoreCommands.swift" /* TestMoreCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestStringAndBitCommands.swift" /* TestStringAndBitCommands.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart1.swift" /* TestTransactionsPart1.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart2.swift" /* TestTransactionsPart2.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart3.swift" /* TestTransactionsPart3.swift */,
+				"__PBXFileRef_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart4.swift" /* TestTransactionsPart4.swift */,
+			);
+			name = SwiftRedis.testsuite;
+			path = "Packages/SwiftRedis-0.7.1/Tests/SwiftRedis";
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */,
+				"__PBXFileRef_Packages/SwiftyJSON-5.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			path = "Packages/SwiftyJSON-5.0.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_netTestSuite" /* net.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ClientTests.swift" /* ClientTests.swift */,
+				"__PBXFileRef_Packages/Kitura-0.7.4/Tests/net/ParserTests.swift" /* ParserTests.swift */,
+			);
+			name = net.testsuite;
+			path = "Packages/Kitura-0.7.4/Tests/net";
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_KituraTestSuite" /* Kitura.testsuite */,
+				"_______Group_netTestSuite" /* net.testsuite */,
+				"_______Group_CouchDBTestSuite" /* CouchDB.testsuite */,
+				"_______Group_SwiftRedisTestSuite" /* SwiftRedis.testsuite */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2A8F0E81C3168AF00C73B61 /* KituraBluePic-server */ = {
+		"______Target_CouchDB" /* CouchDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A8F0F01C3168AF00C73B61 /* Build configuration list for PBXNativeTarget "KituraBluePic-server" */;
+			buildConfigurationList = "_______Confs_CouchDB" /* Build configuration list for PBXNativeTarget "CouchDB" */;
 			buildPhases = (
-				A2A8F0E51C3168AF00C73B61 /* Sources */,
-				A2A8F0E61C3168AF00C73B61 /* Frameworks */,
-				A2A8F0E71C3168AF00C73B61 /* CopyFiles */,
+				CompilePhase_CouchDB /* Sources */,
+				"___LinkPhase_CouchDB" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_HeliumLogger /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+			);
+			name = CouchDB;
+			productName = CouchDB;
+			productReference = "_____Product_CouchDB" /* libCouchDB.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CouchDBSample" /* CouchDBSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CouchDBSample" /* Build configuration list for PBXNativeTarget "CouchDBSample" */;
+			buildPhases = (
+				CompilePhase_CouchDBSample /* Sources */,
+				"___LinkPhase_CouchDBSample" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_HeliumLogger /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_CouchDB /* PBXTargetDependency */,
+			);
+			name = CouchDBSample;
+			productName = CouchDBSample;
+			productReference = "_____Product_CouchDBSample" /* CouchDBSample */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_CouchDBTestSuite" /* CouchDB.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CouchDBTestSuite" /* Build configuration list for PBXNativeTarget "CouchDB.testsuite" */;
+			buildPhases = (
+				CompilePhase_CouchDBTestSuite /* Sources */,
+				"___LinkPhase_CouchDBTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_HeliumLogger /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_CouchDB /* PBXTargetDependency */,
+			);
+			name = CouchDB.testsuite;
+			productName = CouchDBTestSuite;
+			productReference = "_____Product_CouchDBTestSuite" /* CouchDB.testsuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_Credentials" /* Credentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Credentials" /* Build configuration list for PBXNativeTarget "Credentials" */;
+			buildPhases = (
+				CompilePhase_Credentials /* Sources */,
+				"___LinkPhase_Credentials" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_Kitura /* PBXTargetDependency */,
+			);
+			name = Credentials;
+			productName = Credentials;
+			productReference = "_____Product_Credentials" /* libCredentials.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CredentialsFacebookToken" /* CredentialsFacebookToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CredentialsFacebookToken" /* Build configuration list for PBXNativeTarget "CredentialsFacebookToken" */;
+			buildPhases = (
+				CompilePhase_CredentialsFacebookToken /* Sources */,
+				"___LinkPhase_CredentialsFacebookToken" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_Kitura /* PBXTargetDependency */,
+				__Dependency_Credentials /* PBXTargetDependency */,
+			);
+			name = CredentialsFacebookToken;
+			productName = CredentialsFacebookToken;
+			productReference = "_____Product_CredentialsFacebookToken" /* libCredentialsFacebookToken.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CredentialsGoogleToken" /* CredentialsGoogleToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CredentialsGoogleToken" /* Build configuration list for PBXNativeTarget "CredentialsGoogleToken" */;
+			buildPhases = (
+				CompilePhase_CredentialsGoogleToken /* Sources */,
+				"___LinkPhase_CredentialsGoogleToken" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_Kitura /* PBXTargetDependency */,
+				__Dependency_Credentials /* PBXTargetDependency */,
+			);
+			name = CredentialsGoogleToken;
+			productName = CredentialsGoogleToken;
+			productReference = "_____Product_CredentialsGoogleToken" /* libCredentialsGoogleToken.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_HeliumLogger" /* HeliumLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HeliumLogger" /* Build configuration list for PBXNativeTarget "HeliumLogger" */;
+			buildPhases = (
+				CompilePhase_HeliumLogger /* Sources */,
+				"___LinkPhase_HeliumLogger" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+			);
+			name = HeliumLogger;
+			productName = HeliumLogger;
+			productReference = "_____Product_HeliumLogger" /* libHeliumLogger.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Kitura" /* Kitura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Kitura" /* Build configuration list for PBXNativeTarget "Kitura" */;
+			buildPhases = (
+				CompilePhase_Kitura /* Sources */,
+				"___LinkPhase_Kitura" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+			);
+			name = Kitura;
+			productName = Kitura;
+			productReference = "_____Product_Kitura" /* libKitura.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_KituraBluePicserver" /* KituraBluePic-server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_KituraBluePicserver" /* Build configuration list for PBXNativeTarget "KituraBluePic-server" */;
+			buildPhases = (
+				CompilePhase_KituraBluePicserver /* Sources */,
+				"___LinkPhase_KituraBluePicserver" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_Credentials /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_HeliumLogger /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_CredentialsGoogleToken /* PBXTargetDependency */,
+				__Dependency_CredentialsFacebookToken /* PBXTargetDependency */,
+				__Dependency_SwiftRedis /* PBXTargetDependency */,
+				__Dependency_CouchDB /* PBXTargetDependency */,
+				__Dependency_Kitura /* PBXTargetDependency */,
+			);
+			name = "KituraBluePic-server";
+			productName = KituraBluePicserver;
+			productReference = "_____Product_KituraBluePicserver" /* KituraBluePic-server */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_KituraNet" /* KituraNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_KituraNet" /* Build configuration list for PBXNativeTarget "KituraNet" */;
+			buildPhases = (
+				CompilePhase_KituraNet /* Sources */,
+				"___LinkPhase_KituraNet" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+			);
+			name = KituraNet;
+			productName = KituraNet;
+			productReference = "_____Product_KituraNet" /* libKituraNet.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_KituraSys" /* KituraSys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_KituraSys" /* Build configuration list for PBXNativeTarget "KituraSys" */;
+			buildPhases = (
+				CompilePhase_KituraSys /* Sources */,
+				"___LinkPhase_KituraSys" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+			);
+			name = KituraSys;
+			productName = KituraSys;
+			productReference = "_____Product_KituraSys" /* libKituraSys.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_KituraTemplateEngine" /* Kitura-TemplateEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_KituraTemplateEngine" /* Build configuration list for PBXNativeTarget "Kitura-TemplateEngine" */;
+			buildPhases = (
+				CompilePhase_KituraTemplateEngine /* Sources */,
+				"___LinkPhase_KituraTemplateEngine" /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "KituraBluePic-server";
-			productName = "BluePic-server";
-			productReference = A2A8F0E91C3168AF00C73B61 /* KituraBluePic-server */;
-			productType = "com.apple.product-type.tool";
+			name = "Kitura-TemplateEngine";
+			productName = KituraTemplateEngine;
+			productReference = "_____Product_KituraTemplateEngine" /* libKitura-TemplateEngine.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_KituraTestSuite" /* Kitura.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_KituraTestSuite" /* Build configuration list for PBXNativeTarget "Kitura.testsuite" */;
+			buildPhases = (
+				CompilePhase_KituraTestSuite /* Sources */,
+				"___LinkPhase_KituraTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+				__Dependency_Kitura /* PBXTargetDependency */,
+			);
+			name = Kitura.testsuite;
+			productName = KituraTestSuite;
+			productReference = "_____Product_KituraTestSuite" /* Kitura.testsuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_LoggerAPI" /* LoggerAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_LoggerAPI" /* Build configuration list for PBXNativeTarget "LoggerAPI" */;
+			buildPhases = (
+				CompilePhase_LoggerAPI /* Sources */,
+				"___LinkPhase_LoggerAPI" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoggerAPI;
+			productName = LoggerAPI;
+			productReference = "_____Product_LoggerAPI" /* libLoggerAPI.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Socket" /* Socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Socket" /* Build configuration list for PBXNativeTarget "Socket" */;
+			buildPhases = (
+				CompilePhase_Socket /* Sources */,
+				"___LinkPhase_Socket" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socket;
+			productName = Socket;
+			productReference = "_____Product_Socket" /* libSocket.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_SwiftRedis" /* SwiftRedis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftRedis" /* Build configuration list for PBXNativeTarget "SwiftRedis" */;
+			buildPhases = (
+				CompilePhase_SwiftRedis /* Sources */,
+				"___LinkPhase_SwiftRedis" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+			);
+			name = SwiftRedis;
+			productName = SwiftRedis;
+			productReference = "_____Product_SwiftRedis" /* libSwiftRedis.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_SwiftRedisTestSuite" /* SwiftRedis.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftRedisTestSuite" /* Build configuration list for PBXNativeTarget "SwiftRedis.testsuite" */;
+			buildPhases = (
+				CompilePhase_SwiftRedisTestSuite /* Sources */,
+				"___LinkPhase_SwiftRedisTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_SwiftRedis /* PBXTargetDependency */,
+			);
+			name = SwiftRedis.testsuite;
+			productName = SwiftRedisTestSuite;
+			productReference = "_____Product_SwiftRedisTestSuite" /* SwiftRedis.testsuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				CompilePhase_SwiftyJSON /* Sources */,
+				"___LinkPhase_SwiftyJSON" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "_____Product_SwiftyJSON" /* libSwiftyJSON.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_netTestSuite" /* net.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_netTestSuite" /* Build configuration list for PBXNativeTarget "net.testsuite" */;
+			buildPhases = (
+				CompilePhase_netTestSuite /* Sources */,
+				"___LinkPhase_netTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Socket /* PBXTargetDependency */,
+				__Dependency_KituraSys /* PBXTargetDependency */,
+				__Dependency_KituraTemplateEngine /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_LoggerAPI /* PBXTargetDependency */,
+				__Dependency_KituraNet /* PBXTargetDependency */,
+			);
+			name = net.testsuite;
+			productName = netTestSuite;
+			productReference = "_____Product_netTestSuite" /* net.testsuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A2A8F0E11C3168AF00C73B61 /* Project object */ = {
+		__RootObject_ /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = IBM;
-				TargetAttributes = {
-					A2A8F0E81C3168AF00C73B61 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = A2A8F0E41C3168AF00C73B61 /* Build configuration list for PBXProject "KituraBluePic-server" */;
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "KituraBluePic-server" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A2A8F0E01C3168AF00C73B61;
-			productRefGroup = A2A8F0EA1C3168AF00C73B61 /* Products */;
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2A8F0E81C3168AF00C73B61 /* KituraBluePic-server */,
+				"______Target_LoggerAPI" /* LoggerAPI */,
+				"______Target_KituraSys" /* KituraSys */,
+				"______Target_Socket" /* Socket */,
+				"______Target_KituraNet" /* KituraNet */,
+				"______Target_SwiftyJSON" /* SwiftyJSON */,
+				"______Target_KituraTemplateEngine" /* Kitura-TemplateEngine */,
+				"______Target_Kitura" /* Kitura */,
+				"______Target_KituraTestSuite" /* Kitura.testsuite */,
+				"______Target_netTestSuite" /* net.testsuite */,
+				"______Target_HeliumLogger" /* HeliumLogger */,
+				"______Target_CouchDB" /* CouchDB */,
+				"______Target_CouchDBSample" /* CouchDBSample */,
+				"______Target_CouchDBTestSuite" /* CouchDB.testsuite */,
+				"______Target_SwiftRedis" /* SwiftRedis */,
+				"______Target_SwiftRedisTestSuite" /* SwiftRedis.testsuite */,
+				"______Target_Credentials" /* Credentials */,
+				"______Target_CredentialsFacebookToken" /* CredentialsFacebookToken */,
+				"______Target_CredentialsGoogleToken" /* CredentialsGoogleToken */,
+				"______Target_KituraBluePicserver" /* KituraBluePic-server */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A2A8F0E51C3168AF00C73B61 /* Sources */ = {
+		CompilePhase_CouchDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				A2A8F0F41C31692400C73B61 /* Package.swift in Sources */,
-				A2A8F0ED1C3168AF00C73B61 /* main.swift in Sources */,
-				A242B7011C351AD200AFB4AE /* Utils.swift in Sources */,
-				3F2EC31E1C6A53680070FCCE /* Photos.swift in Sources */,
-				3F2EC31C1C69E1AD0070FCCE /* Admin.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/ConnectionProperties.swift" /* ConnectionProperties.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBClient.swift" /* CouchDBClient.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/CouchDBUtils.swift" /* CouchDBUtils.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDB/Database.swift" /* Database.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CouchDBSample /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Sources/CouchDBSample/main.swift" /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CouchDBTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DBTests.swift" /* DBTests.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/DocumentCrudTests.swift" /* DocumentCrudTests.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-CouchDB-0.7.1/Tests/CouchDB/Utils.swift" /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Credentials /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-Credentials-0.7.0/Sources/Credentials/Credentials.swift" /* Credentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CredentialsFacebookToken /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-CredentialsFacebookToken-0.7.0/Sources/CredentialsFacebookToken/CredentialsFacebookToken.swift" /* CredentialsFacebookToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CredentialsGoogleToken /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-CredentialsGoogleToken-0.7.0/Sources/CredentialsGoogleToken/CredentialsGoogleToken.swift" /* CredentialsGoogleToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HeliumLogger /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HeliumLogger-0.4.3/Sources/HeliumLogger/HeliumLogger.swift" /* HeliumLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Kitura /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/Router.swift" /* Router.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterElement.swift" /* RouterElement.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddleware.swift" /* RouterMiddleware.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterMiddlewareGenerator.swift" /* RouterMiddlewareGenerator.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterRequest.swift" /* RouterRequest.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/RouterResponse.swift" /* RouterResponse.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/bodyParser/BodyParser.swift" /* bodyParser/BodyParser.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/contentType/ContentType.swift" /* contentType/ContentType.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/contentType/types.swift" /* contentType/types.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Sources/Kitura/staticFileServer/StaticFileServer.swift" /* staticFileServer/StaticFileServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_KituraBluePicserver /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_KituraBluePic-server/Admin.swift" /* Admin.swift in Sources */,
+				"__src_cc_ref_KituraBluePic-server/main.swift" /* main.swift in Sources */,
+				"__src_cc_ref_KituraBluePic-server/Photos.swift" /* Photos.swift in Sources */,
+				"__src_cc_ref_KituraBluePic-server/Utils.swift" /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_KituraNet /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/BufferList.swift" /* BufferList.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientRequest.swift" /* ClientRequest.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ClientResponse.swift" /* ClientResponse.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/Http.swift" /* Http.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServer.swift" /* HttpServer.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpServerSpi.swift" /* HttpServerSpi.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/IncomingMessage.swift" /* IncomingMessage.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerRequest.swift" /* ServerRequest.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/ServerResponse.swift" /* ServerResponse.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/SpiUtils.swift" /* SpiUtils.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/HttpParser.swift" /* HttpParser/HttpParser.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-net-0.7.2/Sources/KituraNet/HttpParser/UrlParser.swift" /* HttpParser/UrlParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_KituraSys /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Queue.swift" /* Queue.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/Server.swift" /* Server.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/StringUtils.swift" /* StringUtils.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-Sys-0.7.0/Sources/KituraSys/SysUtils.swift" /* SysUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_KituraTemplateEngine /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-TemplateEngine-0.0.2/Sources/TemplateEngine.swift" /* TemplateEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_KituraTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/ExternalSubrouter.swift" /* ExternalSubrouter.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/KituraTest.swift" /* KituraTest.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestContentType.swift" /* TestContentType.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestCookies.swift" /* TestCookies.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestErrors.swift" /* TestErrors.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestMultiplicity.swift" /* TestMultiplicity.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestResponse.swift" /* TestResponse.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/Kitura/TestSubrouter.swift" /* TestSubrouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_LoggerAPI /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/LoggerAPI-0.4.0/Sources/LoggerAPI/Logger.swift" /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Socket /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Socket-0.3.5/Sources/Socket.swift" /* Socket.swift in Sources */,
+				"__src_cc_ref_Packages/Socket-0.3.5/Sources/SocketProtocols.swift" /* SocketProtocols.swift in Sources */,
+				"__src_cc_ref_Packages/Socket-0.3.5/Sources/SocketUtils.swift" /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftRedis /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/Redis.swift" /* Redis.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/RedisMisc.swift" /* RedisMisc.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Sources/RedisMulti.swift" /* RedisMulti.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftRedisTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/AuthTests.swift" /* AuthTests.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/CommonUtils.swift" /* CommonUtils.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBasicCommands.swift" /* TestBasicCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestBinarySafeCommands.swift" /* TestBinarySafeCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestConnectCommands.swift" /* TestConnectCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestHashCommands.swift" /* TestHashCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestIssueCommand.swift" /* TestIssueCommand.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestMoreCommands.swift" /* TestMoreCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestStringAndBitCommands.swift" /* TestStringAndBitCommands.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart1.swift" /* TestTransactionsPart1.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart2.swift" /* TestTransactionsPart2.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart3.swift" /* TestTransactionsPart3.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftRedis-0.7.1/Tests/SwiftRedis/TestTransactionsPart4.swift" /* TestTransactionsPart4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftyJSON /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftyJSON-5.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftyJSON-5.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_netTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/net/ClientTests.swift" /* ClientTests.swift in Sources */,
+				"__src_cc_ref_Packages/Kitura-0.7.4/Tests/net/ParserTests.swift" /* ParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		__Dependency_CouchDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CouchDB" /* CouchDB */;
+			targetProxy = E11CB83C1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Credentials /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Credentials" /* Credentials */;
+			targetProxy = E11CB83E1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CredentialsFacebookToken /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CredentialsFacebookToken" /* CredentialsFacebookToken */;
+			targetProxy = E11CB8401CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CredentialsGoogleToken /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CredentialsGoogleToken" /* CredentialsGoogleToken */;
+			targetProxy = E11CB83F1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_HeliumLogger /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HeliumLogger" /* HeliumLogger */;
+			targetProxy = E11CB83B1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Kitura /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Kitura" /* Kitura */;
+			targetProxy = E11CB83D1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_KituraNet /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_KituraNet" /* KituraNet */;
+			targetProxy = E11CB83A1CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_KituraSys /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_KituraSys" /* KituraSys */;
+			targetProxy = E11CB8371CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_KituraTemplateEngine /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_KituraTemplateEngine" /* Kitura-TemplateEngine */;
+			targetProxy = E11CB8381CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_LoggerAPI /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_LoggerAPI" /* LoggerAPI */;
+			targetProxy = E11CB8351CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Socket /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Socket" /* Socket */;
+			targetProxy = E11CB8361CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_SwiftRedis /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SwiftRedis" /* SwiftRedis */;
+			targetProxy = E11CB8411CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = E11CB8391CB8405400B1A513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		A2A8F0EE1C3168AF00C73B61 /* Debug */ = {
+		_ReleaseConf_CouchDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDB;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CouchDBSample /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDBSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_CouchDBTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDBTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Credentials /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Credentials;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CredentialsFacebookToken /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CredentialsFacebookToken;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CredentialsGoogleToken /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CredentialsGoogleToken;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HeliumLogger /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = HeliumLogger;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Kitura /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Kitura;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_KituraBluePicserver /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraBluePicserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_KituraNet /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					/usr/local/include,
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraNet;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_KituraSys /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraSys;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_KituraTemplateEngine /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraTemplateEngine;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_KituraTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_LoggerAPI /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LoggerAPI;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Socket /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftRedis /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftRedis;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftRedisTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftRedisTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftyJSON /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_netTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = netTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		"___DebugConf_CouchDB" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDB;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A2A8F0EF1C3168AF00C73B61 /* Release */ = {
+		"___DebugConf_CouchDBSample" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		A2A8F0F11C3168AF00C73B61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDBSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A2A8F0F21C3168AF00C73B61 /* Release */ = {
+		"___DebugConf_CouchDBTestSuite" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CouchDBTestSuite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Credentials" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Credentials;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CredentialsFacebookToken" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CredentialsFacebookToken;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CredentialsGoogleToken" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CredentialsGoogleToken;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HeliumLogger" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = HeliumLogger;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Kitura" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Kitura;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_KituraBluePicserver" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraBluePicserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_KituraNet" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CCurl-0.0.1",
+					/usr/local/include,
+					"${SRCROOT}/Packages/CHttpParser-0.0.2",
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraNet;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_KituraSys" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraSys;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_KituraTemplateEngine" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraTemplateEngine;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_KituraTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = KituraTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_LoggerAPI" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LoggerAPI;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Socket" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftRedis" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Packages/CHiredis-0.0.1",
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftRedis;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftRedisTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftRedisTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftyJSON" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_netTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = netTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 			};
 			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2A8F0E41C3168AF00C73B61 /* Build configuration list for PBXProject "KituraBluePic-server" */ = {
+		"___RootConfs_" /* Build configuration list for PBXProject "KituraBluePic-server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2A8F0EE1C3168AF00C73B61 /* Debug */,
-				A2A8F0EF1C3168AF00C73B61 /* Release */,
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A2A8F0F01C3168AF00C73B61 /* Build configuration list for PBXNativeTarget "KituraBluePic-server" */ = {
+		"_______Confs_CouchDB" /* Build configuration list for PBXNativeTarget "CouchDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2A8F0F11C3168AF00C73B61 /* Debug */,
-				A2A8F0F21C3168AF00C73B61 /* Release */,
+				"___DebugConf_CouchDB" /* Debug */,
+				_ReleaseConf_CouchDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CouchDBSample" /* Build configuration list for PBXNativeTarget "CouchDBSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CouchDBSample" /* Debug */,
+				_ReleaseConf_CouchDBSample /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CouchDBTestSuite" /* Build configuration list for PBXNativeTarget "CouchDB.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CouchDBTestSuite" /* Debug */,
+				_ReleaseConf_CouchDBTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Credentials" /* Build configuration list for PBXNativeTarget "Credentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Credentials" /* Debug */,
+				_ReleaseConf_Credentials /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CredentialsFacebookToken" /* Build configuration list for PBXNativeTarget "CredentialsFacebookToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CredentialsFacebookToken" /* Debug */,
+				_ReleaseConf_CredentialsFacebookToken /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CredentialsGoogleToken" /* Build configuration list for PBXNativeTarget "CredentialsGoogleToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CredentialsGoogleToken" /* Debug */,
+				_ReleaseConf_CredentialsGoogleToken /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HeliumLogger" /* Build configuration list for PBXNativeTarget "HeliumLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HeliumLogger" /* Debug */,
+				_ReleaseConf_HeliumLogger /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Kitura" /* Build configuration list for PBXNativeTarget "Kitura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Kitura" /* Debug */,
+				_ReleaseConf_Kitura /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_KituraBluePicserver" /* Build configuration list for PBXNativeTarget "KituraBluePic-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_KituraBluePicserver" /* Debug */,
+				_ReleaseConf_KituraBluePicserver /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_KituraNet" /* Build configuration list for PBXNativeTarget "KituraNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_KituraNet" /* Debug */,
+				_ReleaseConf_KituraNet /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_KituraSys" /* Build configuration list for PBXNativeTarget "KituraSys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_KituraSys" /* Debug */,
+				_ReleaseConf_KituraSys /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_KituraTemplateEngine" /* Build configuration list for PBXNativeTarget "Kitura-TemplateEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_KituraTemplateEngine" /* Debug */,
+				_ReleaseConf_KituraTemplateEngine /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_KituraTestSuite" /* Build configuration list for PBXNativeTarget "Kitura.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_KituraTestSuite" /* Debug */,
+				_ReleaseConf_KituraTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_LoggerAPI" /* Build configuration list for PBXNativeTarget "LoggerAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_LoggerAPI" /* Debug */,
+				_ReleaseConf_LoggerAPI /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Socket" /* Build configuration list for PBXNativeTarget "Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Socket" /* Debug */,
+				_ReleaseConf_Socket /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftRedis" /* Build configuration list for PBXNativeTarget "SwiftRedis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftRedis" /* Debug */,
+				_ReleaseConf_SwiftRedis /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftRedisTestSuite" /* Build configuration list for PBXNativeTarget "SwiftRedis.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftRedisTestSuite" /* Debug */,
+				_ReleaseConf_SwiftRedisTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftyJSON" /* Debug */,
+				_ReleaseConf_SwiftyJSON /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_netTestSuite" /* Build configuration list for PBXNativeTarget "net.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_netTestSuite" /* Debug */,
+				_ReleaseConf_netTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A2A8F0E11C3168AF00C73B61 /* Project object */;
+	rootObject = __RootObject_ /* Project object */;
 }
